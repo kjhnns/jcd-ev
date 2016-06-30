@@ -1,20 +1,49 @@
 <!doctype html>
 <html>
   <head>
-    <meta content="IE=edge" http-equiv="X-UA-Compatible">
-    <meta charset="utf-8">
-    <meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
+      <meta content="IE=edge" http-equiv="X-UA-Compatible">
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+      <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,800,700">
+      <!-- Use title if it's in the page YAML frontmatter -->
+      <title>
+          <%= current_page.data.title || "Middleman" %>
+      </title>
+      <link href='//fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
+      <%= stylesheet_link_tag 'vendor/bootstrap/css/bootstrap.min' %>
+      <%= stylesheet_link_tag :site %>
 
-    <!-- Use title if it's in the page YAML frontmatter -->
-    <title><%= current_page.data.title || "Middleman" %></title>
-
-    <link href='//fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
-
-    <%= stylesheet_link_tag :site %>
-    <%= javascript_include_tag :all %>
+      <link rel="stylesheet" type="text/css" href="/javascripts/vendor/animation-framework/animate.css">
+      <link rel="stylesheet" type="text/css" href="/javascripts/vendor/magnific-popup/magnific-popup.css">
+      <link rel="stylesheet" type="text/css" href="/javascripts/vendor/flexslider/flexslider.css">
+      <link rel="stylesheet" type="text/css" href="/javascripts/vendor/owl.carousel/owl-carousel/owl.carousel.css">
+      <link rel="stylesheet" type="text/css" href="/javascripts/vendor/owl.carousel/owl-carousel/owl.transitions.css">
+      <link rel="stylesheet" type="text/css" href="/javascripts/vendor/owl.carousel/owl-carousel/owl.theme.css">
+      <link rel="stylesheet" type="text/css" href="/javascripts/vendor/appear/nekoAnim.css">
   </head>
 
+
   <body class="<%= page_classes %>">
-    <%= yield %>
+      <%= yield %>
+
+
+
+      <%= javascript_include_tag 'vendor/jquery/jquery-1.10.2.min' %>
+      <%= javascript_include_tag :all %>
+      <%= javascript_include_tag :modernizr %>
+      <%= javascript_include_tag 'vendor/respond/respond.min' %>
+      <%= javascript_include_tag 'vendor/jquery-ui/jquery-ui-1.8.23.custom.min' %>
+      <%= javascript_include_tag 'vendor/easing/jquery.easing.1.3.js' %>
+      <%= javascript_include_tag 'vendor/magnific-popup/jquery.magnific-popup.min' %>
+      <%= javascript_include_tag 'vendor/flexslider/jquery.flexslider' %>
+      <%= javascript_include_tag 'vendor/isotope/jquery.isotope.min' %>
+      <%= javascript_include_tag 'vendor/neko-contact-ajax-plugin/js/jquery.form' %>
+      <%= javascript_include_tag 'vendor/neko-contact-ajax-plugin/js/jquery.validate.min' %>
+      <%= javascript_include_tag 'vendor/appear/jquery.appear' %>
+      <%= javascript_include_tag 'vendor/parallax/js/jquery.stellar.min' %>
+      <%= javascript_include_tag 'vendor/parallax/js/jquery.scrollTo-1.4.3.1-min' %>
+      <%= javascript_include_tag 'vendor/parallax/js/jquery.localscroll-1.2.7-min' %>
+      <%= javascript_include_tag :custom %>
   </body>
+
 </html>

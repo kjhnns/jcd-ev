@@ -124,9 +124,10 @@ DEPENDENCIES
   middleman (>= 4.0.0)
   middleman-compass (>= 4.0.0)
   middleman-livereload
+  rack-contrib
   tzinfo-data
   wdm (~> 0.1.0)
-  rack-contrib
+  puma
 
 BUNDLED WITH
    1.11.2

@@ -2,9 +2,13 @@ h1,
 h2,
 h3,
 h4 {
-    font-weight: 300 !important
+    font-weight: 300 !important;
 }
 
+h1 {
+    text-transform: none !important;
+    color: #002663 !important;
+}
 
 h2:after {
     height: 2px !important;

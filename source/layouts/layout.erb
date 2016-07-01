@@ -7,26 +7,26 @@
       <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,800,700">
       <!-- Use title if it's in the page YAML frontmatter -->
       <title>
-          <%= current_page.data.title || "Middleman" %>
+          <%= current_page.data.title || "Junior Comtec e.V. Darmstadt" %>
       </title>
       <link href='//fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
       <%= stylesheet_link_tag 'vendor/bootstrap/css/bootstrap.min' %>
-      <%= stylesheet_link_tag :site %>
+      <%= stylesheet_link_tag 'vendor/animation-framework/animate.css' %>
+      <%= stylesheet_link_tag 'vendor/magnific-popup/magnific-popup.css' %>
+      <%= stylesheet_link_tag 'vendor/flexslider/flexslider.css' %>
+      <%= stylesheet_link_tag 'vendor/owl.carousel/owl-carousel/owl.carousel.css' %>
+      <%= stylesheet_link_tag 'vendor/owl.carousel/owl-carousel/owl.transitions.css' %>
+      <%= stylesheet_link_tag 'vendor/owl.carousel/owl-carousel/owl.theme.css' %>
+      <%= stylesheet_link_tag 'vendor/appear/nekoAnim.css' %>
 
-      <link rel="stylesheet" type="text/css" href="/javascripts/vendor/animation-framework/animate.css">
-      <link rel="stylesheet" type="text/css" href="/javascripts/vendor/magnific-popup/magnific-popup.css">
-      <link rel="stylesheet" type="text/css" href="/javascripts/vendor/flexslider/flexslider.css">
-      <link rel="stylesheet" type="text/css" href="/javascripts/vendor/owl.carousel/owl-carousel/owl.carousel.css">
-      <link rel="stylesheet" type="text/css" href="/javascripts/vendor/owl.carousel/owl-carousel/owl.transitions.css">
-      <link rel="stylesheet" type="text/css" href="/javascripts/vendor/owl.carousel/owl-carousel/owl.theme.css">
-      <link rel="stylesheet" type="text/css" href="/javascripts/vendor/appear/nekoAnim.css">
+      <%= stylesheet_link_tag :site %>
   </head>
 
 
   <body class="<%= page_classes %>">
-      <%= yield %>
-
-
+      <div id="globalWrapper">
+          <%= yield %>
+      </div>
 
       <%= javascript_include_tag 'vendor/jquery/jquery-1.10.2.min' %>
       <%= javascript_include_tag :all %>

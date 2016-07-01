@@ -1,0 +1,33 @@
+
+hr.line {
+    border-top: 1px solid #002663 !important
+}
+
+hr.lineArrow:before {
+    display: none
+}
+
+
+.removeMRL5 {
+    margin-right: -5px;
+    margin-left: -5px
+}
+
+hr.lineStar,
+hr.lineX,
+hr.linePlus,
+hr.lineDot,
+hr.lineLines,
+hr.lineArrow {
+    border-top: 1px solid #002663 !important
+}
+
+hr.lineStar:after,
+hr.lineX:after,
+hr.linePlus:after,
+hr.lineDot:after,
+hr.lineLines:after,
+hr.lineArrow:after {
+    color: #002663 !important;
+    border: 1px solid #002663 !important
+}

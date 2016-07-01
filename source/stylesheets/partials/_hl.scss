@@ -1,0 +1,14 @@
+h1,
+h2,
+h3,
+h4 {
+    font-weight: 300 !important
+}
+
+
+h2:after {
+    height: 2px !important;
+    background: #002663 !important;
+    filter: alpha(opacity=10);
+    opacity: .1
+}

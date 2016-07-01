@@ -10,40 +10,17 @@
           <%= current_page.data.title || "Junior Comtec e.V. Darmstadt" %>
       </title>
       <link href='//fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
-      <%= stylesheet_link_tag 'vendor/bootstrap/css/bootstrap.min' %>
-      <%= stylesheet_link_tag 'vendor/animation-framework/animate.css' %>
-      <%= stylesheet_link_tag 'vendor/magnific-popup/magnific-popup.css' %>
-      <%= stylesheet_link_tag 'vendor/flexslider/flexslider.css' %>
-      <%= stylesheet_link_tag 'vendor/owl.carousel/owl-carousel/owl.carousel.css' %>
-      <%= stylesheet_link_tag 'vendor/owl.carousel/owl-carousel/owl.transitions.css' %>
-      <%= stylesheet_link_tag 'vendor/owl.carousel/owl-carousel/owl.theme.css' %>
-      <%= stylesheet_link_tag 'vendor/appear/nekoAnim.css' %>
-
       <%= stylesheet_link_tag :site %>
+
   </head>
 
 
   <body class="<%= page_classes %>">
-      <div id="globalWrapper">
-          <%= yield %>
-      </div>
+      <%= yield %>
 
-      <%= javascript_include_tag 'vendor/jquery/jquery-1.10.2.min' %>
+      <%= javascript_include_tag 'vendor/jquery' %>
+      <%= javascript_include_tag 'vendor/bootstrap-sass/bootstrap.min' %>
       <%= javascript_include_tag :all %>
-      <%= javascript_include_tag :modernizr %>
-      <%= javascript_include_tag 'vendor/respond/respond.min' %>
-      <%= javascript_include_tag 'vendor/jquery-ui/jquery-ui-1.8.23.custom.min' %>
-      <%= javascript_include_tag 'vendor/easing/jquery.easing.1.3.js' %>
-      <%= javascript_include_tag 'vendor/magnific-popup/jquery.magnific-popup.min' %>
-      <%= javascript_include_tag 'vendor/flexslider/jquery.flexslider' %>
-      <%= javascript_include_tag 'vendor/isotope/jquery.isotope.min' %>
-      <%= javascript_include_tag 'vendor/neko-contact-ajax-plugin/js/jquery.form' %>
-      <%= javascript_include_tag 'vendor/neko-contact-ajax-plugin/js/jquery.validate.min' %>
-      <%= javascript_include_tag 'vendor/appear/jquery.appear' %>
-      <%= javascript_include_tag 'vendor/parallax/js/jquery.stellar.min' %>
-      <%= javascript_include_tag 'vendor/parallax/js/jquery.scrollTo-1.4.3.1-min' %>
-      <%= javascript_include_tag 'vendor/parallax/js/jquery.localscroll-1.2.7-min' %>
-      <%= javascript_include_tag :custom %>
   </body>
 
 </html>

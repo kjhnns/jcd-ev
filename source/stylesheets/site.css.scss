@@ -1,27 +1,8 @@
 @charset "utf-8";
 
 // vendor
-@import 'custom-icons/css/custom-icons';
-@import 'custom-icons/css/animation';
-@import 'vendor/normalize';
-@import 'vendor/seattle/layout';
-@import 'vendor/seattle/comtec';
+@import 'vendor/bootstrap-sass/assets/stylesheets/bootstrap';
 
-
-// modules
-// @import 'modules/colors';
-// @import 'modules/grid';
-// @import 'modules/visibility';
-
-// partials
-@import 'partials/timeline';
-@import 'partials/hr';
-@import 'partials/hl';
-@import 'partials/input';
-@import 'partials/header';
-@import 'partials/footer';
 
 // sections
-// @import 'sections/sections';
-// @import 'sections/teaser';
-// @import 'sections/first';
+@import 'sections/tutorial';

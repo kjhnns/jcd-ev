@@ -164,8 +164,9 @@ nav#subnav span.active {
 }
 
 @media (min-width:1200px) {
+    /* Innenabstand verringert ... -> smarter ... vorher padding: 8px 15px !important */
     .navbar-nav > li > a {
-        padding: 8px 22px !important
+        padding: 8px 10px !important
     }
     .navbar-nav ul,
     .navbar-nav .nekoMegaMenu {
@@ -174,8 +175,9 @@ nav#subnav span.active {
     .navbar-headerÂ {
         height: 48px !important
     }
+    /* Logo höher positioniert ... -> smarter  ... vorher: padding: 19px 0 !important */
     .navbar-brand {
-        padding: 19px 0 !important
+        padding: 12px 0 !important
     }
     body {
         padding-top: 62px !important

@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/kjhnns/jcd-ev.svg?branch=master)](https://travis-ci.org/kjhnns/jcd-ev)
+
 # Junior Comtec e.V. Website
 
 ## Development Links
@@ -11,7 +13,11 @@ Install the necessary dependencies via ``$ bundle install``
 
 ## Deployment
 
-The deploy configuration is found in ``config.rb``
+Just push to the master branch - travis-ci will deploy automatically.
+
+
+### Without Travis
+You have to configure the env-Variables "USER" and "PW" to access the FTP-Server
 
 * build the new website version ``$ middleman build [--clean]``
 * deploy to server ``middleman deploy``

@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+// vendor
+@import 'custom-icons/css/custom-icons';
+@import 'custom-icons/css/animation';
+@import 'vendor/flexslider/flexslider.css';
+@import 'vendor/owl.carousel/owl-carousel/owl.carousel.css';
+@import 'vendor/owl.carousel/owl-carousel/owl.theme.css';
+@import 'vendor/owl.carousel/owl-carousel/owl.transitions.css';
+@import 'vendor/normalize';
+@import 'vendor/seattle/layout';
+@import 'vendor/seattle/comtec';
+
+
+// modules
+// @import 'modules/colors';
+// @import 'modules/grid';
+// @import 'modules/visibility';
+
+// partials
+@import 'partials/timeline';
+@import 'partials/hr';
+@import 'partials/hl';
+@import 'partials/input';
+@import 'partials/header';
+@import 'partials/footer';
+@import 'partials/slider';
+@import 'partials/landingContent';
+@import 'partials/customers';
+@import 'partials/about1';
+@import 'partials/about2';
+@import 'partials/about3';
+@import 'partials/testimonials';
+
+
+// sections
+// @import 'sections/sections';
+// @import 'sections/teaser';
+// @import 'sections/first';

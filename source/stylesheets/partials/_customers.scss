@@ -1,0 +1,55 @@
+#customers {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  font-size: 20pt;
+  text-align: center;
+}
+b {
+  font-weight: bolder;
+}
+.block {
+  margin-top: 15%;
+  margin-left: 25%;
+}
+.blockimage {
+  position: relative;
+  text-align: center;
+  width: 70%;
+  height: 100pt;
+
+  border: 2px #ccc solid;
+  border-radius: 4px;
+}
+.block :hover {
+  border: 2px #464646 solid;
+  transition: 2s;
+}
+.blockimage img {
+  display: inline-block;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+#siemens {
+  width: 80%;
+  height: 20px;
+  border:0;
+}
+#lufthansa {
+  width: 85%;
+  height: 130px;
+  border:0;
+}
+#continental {
+  width: 80%;
+  height: 25px;
+  border:0;
+}
+#aeg {
+  width: 80px;
+  height: 50px;
+  border:0;
+}

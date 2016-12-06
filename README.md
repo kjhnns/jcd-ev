@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/kjhnns/jcd-ev.svg?branch=master)](https://travis-ci.org/kjhnns/jcd-ev)
+[![Build Status](https://travis-ci.org/junior-comtec/jcd-ev.svg?branch=master)](https://travis-ci.org/junior-comtec/jcd-ev)
 
 # Junior Comtec e.V. Website
 

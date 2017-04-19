@@ -30,3 +30,22 @@
   margin-top: 0px;
   float: left;
 }
+
+input {
+position: absolute;
+visibility: hidden;
+}
+label.info:hover {
+}
+span {
+display: none;
+padding: 1em;
+    text-decoration:none;
+    text-align: justify;
+    line-height: 1.5em;
+    font-weight: normal;
+}
+input#info1:checked ~ span.info1,
+input#info2:checked ~ span.info2 {
+display: block;
+}

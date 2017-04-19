@@ -1,38 +1,57 @@
-<style>
-
-#parent > #child
-{
-display: none;
+<style type="text/css">
+input {
+position: absolute;
+visibility: hidden;
 }
-
-#parent:hover > #child
-{
+label.info:hover {
+cursor: help;
+}
+span {
+display: none;
+padding: 1em;
+    text-decoration:none;
+    text-align: justify;
+    line-height: 1.5em;
+    font-weight: normal;
+color: #348017;
+border: 1px solid #348017;
+background: #fff;
+}
+input#info1:checked ~ span.info1,
+input#info2:checked ~ span.info2 {
 display: block;
 }
-
 </style>
 
 <section class="item about">
-<div class="container">
-<div class="col-md-6 withcontent">
-<!--<p class="text-muted"> ÜBER UNS </p>-->
-<h1>FAQ</h1>
-<!--<p class="third">FAQ</p>-->
-
-weitere Überschriften hinzufügen
+    <div class="container">
+            <div class="col-md-6 withcontent">
+                <!--<p class="text-muted"> ÜBER UNS </p>-->
+                <h1>FAQ</h1>
+                <!--<p class="third">Frequently Asked Questions</p>-->
 
 
 
 
 
-<div id="parent">
-Was versteht man unter einer studentischen Unternehmensberatung?
-<div id="child">
-
+<input type="checkbox" id="info1">
+<label class="info" for="info1">Was versteht man unter einer studentischen Unternehmensberatung?
+</label><br />
+<span class="info1">
+<p>
 Wie der Name schon sagt, sind wir eine ausschließlich von Studenten getragene Unternehmensberatung im universitären Umfeld. Wir verstehen uns als Studentenvereinigung, die erkannt hat, dass universitäres Wissen allein nicht ausreicht. Unseren Kunden bieten wir professionelle Beratungsprojekte an, auf denen unsere Mitglieder wertvolle Praxiserfahrung sammeln. Als älteste, deutsche studentische Unternehmensberatung steht Junior Comtec für mehr als nur Beratungsleistungen. Einen gleichbedeutenden Teil von Junior Comtec bildet das Vereinsleben. Dabei stehen das Stärken der eigenen Fähigkeiten in internen und externen Workshops sowie die Weiterentwicklung des Vereins im Vordergrund.. Neben professionellen Beratungsprojekten und engagierter Vereinsarbeit, ist auch das soziale Miteinander eine zentrale Säule von Junior Comtec. So wird der Teamgeist regelmäßig durch Stammtische, Events und Ausflüge gestärkt. Als besondere Highlights müssen definitiv die halbjährlichen Strategiewochenenden genannt werden, bei denen wir gemeinsam für 2-4 Tage verreisen, um über die Zukunft des Vereins zu diskutieren und einander fernab des Unistresses besser kennenzulernen.
-</div>
-</div>
-</div>
-</div>
+</p>
+</span>
 
+
+            </div>
+
+
+
+
+
+
+
+
+    </div>
 </section>

@@ -1,5 +1,4 @@
-
- .third {
+.third {
   color: #002663;
   font-size: 15pt;
  }
@@ -20,7 +19,6 @@
    margin-top: 0px;
    float: left;
  }
-
 
 
 input {
@@ -54,6 +52,6 @@ input#info11:checked ~ span.info11,
 input#info12:checked ~ span.info12,
 input#info13:checked ~ span.info13,
 input#info14:checked ~ span.info14,
-input#info15:checked ~ span.info15{
+input#info15:checked ~ span.info15 {
 display: block;
 }

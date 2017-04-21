@@ -30,3 +30,38 @@
   margin-top: 0px;
   float: left;
 }
+
+input {
+position: absolute;
+visibility: hidden;
+}
+label {
+ text-align: left; 
+} 
+label.info:hover {
+}
+span {
+display: none;
+padding: 1em;
+    text-decoration:none;
+    text-align: justify;
+    line-height: 1.5em;
+    font-weight: normal;
+}
+input#info1:checked ~ span.info1,
+input#info2:checked ~ span.info2,
+input#info3:checked ~ span.info3,
+input#info4:checked ~ span.info4,
+input#info5:checked ~ span.info5,
+input#info6:checked ~ span.info6,
+input#info7:checked ~ span.info7,
+input#info8:checked ~ span.info8,
+input#info9:checked ~ span.info9,
+input#info10:checked ~ span.info10,
+input#info11:checked ~ span.info11,
+input#info12:checked ~ span.info12,
+input#info13:checked ~ span.info13,
+input#info14:checked ~ span.info14,
+input#info15:checked ~ span.info15 {
+display: block;
+}

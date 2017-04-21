@@ -21,12 +21,15 @@
    float: left;
  }
 
+}
+
 input {
 position: absolute;
 visibility: hidden;
 }
-label.info:hover {
-}
+label {
+ text-align: left; 
+} 
 span {
 display: none;
 padding: 1em;
@@ -51,5 +54,4 @@ input#info13:checked ~ span.info13,
 input#info14:checked ~ span.info14,
 input#info15:checked ~ span.info15{
 display: block;
-}
 }

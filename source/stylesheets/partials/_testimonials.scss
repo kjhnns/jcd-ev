@@ -12,6 +12,9 @@
 }
 
 #infoabend {
+    span {
+        display: inline;
+    }
     .countDown.container {
         text-align: center;
         @media (max-width: 320px) {
@@ -41,7 +44,5 @@
     .mail {
         font-weight: bold;
     }
-    span {
-        display: inline;
-    }
+    
 }

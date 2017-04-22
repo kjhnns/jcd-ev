@@ -1,34 +1,34 @@
 .third {
- color: #002663;
- font-size: 15pt;
+color: #002663;
+    font-size: 15pt;
 }
 .about {
-  background-color: #f0f0f0;
-  padding-top: 3%;
-  padding-bottom: 3%;
-
+    background-color: #f0f0f0;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    
 }
 .text1 {
-  margin-right: 0%;
-  font-size: 1.2em;
-  line-height: 1.8em;
-  text-align: justify;
+    margin-right: 0%;
+    font-size: 1.2em;
+    line-height: 1.8em;
+    text-align: justify;
 }
 .aboutbox {
-  margin-top: 5%;
-  margin-bottom: 5%;
-
+    margin-top: 5%;
+    margin-bottom: 5%;
+    
 }
 .withimg {
-  display: inline-block;
-  float: left;
-  margin-left: 0;
-  padding-left: 0;
-  margin-bottom: 30px;
+display: inline-block;
+    float: left;
+    margin-left: 0;
+    padding-left: 0;
+    margin-bottom: 30px;
 }
 .withcontent {
-  margin-top: 0px;
-  float: left;
+    margin-top: 0px;
+    float: left;
 }
 
 input {
@@ -37,130 +37,33 @@ visibility: hidden;
 }
 
 label {
- text-align: left; 
-} 
+    text-align: left;
+}
 label.info:hover {
 }
-input#info1:checked ~ span.info1 {
+span {
 display: none;
 padding: 1em;
     text-decoration:none;
     text-align: justify;
     line-height: 1.5em;
     font-weight: normal;
-},
-input#info2:checked ~ span.info2 {
-display: none;
-padding: 1em;
-    text-decoration:none;
-    text-align: justify;
-    line-height: 1.5em;
-    font-weight: normal;
-},
-input#info3:checked ~ span.info3 {
-display: none;
-padding: 1em;
-    text-decoration:none;
-    text-align: justify;
-    line-height: 1.5em;
-    font-weight: normal;
-},
-input#info4:checked ~ span.info4 {
-display: none;
-padding: 1em;
-    text-decoration:none;
-    text-align: justify;
-    line-height: 1.5em;
-    font-weight: normal;
-},
-input#info5:checked ~ span.info5 {
-display: none;
-padding: 1em;
-    text-decoration:none;
-    text-align: justify;
-    line-height: 1.5em;
-    font-weight: normal;
-},
-input#info6:checked ~ span.info6 {
-display: none;
-padding: 1em;
-    text-decoration:none;
-    text-align: justify;
-    line-height: 1.5em;
-    font-weight: normal;
-},
-input#info7:checked ~ span.info7 {
-display: none;
-padding: 1em;
-    text-decoration:none;
-    text-align: justify;
-    line-height: 1.5em;
-    font-weight: normal;
-},
-input#info8:checked ~ span.info8 {
-display: none;
-padding: 1em;
-    text-decoration:none;
-    text-align: justify;
-    line-height: 1.5em;
-    font-weight: normal;
-},
-input#info9:checked ~ span.info9 {
-display: none;
-padding: 1em;
-    text-decoration:none;
-    text-align: justify;
-    line-height: 1.5em;
-    font-weight: normal;
-},
-input#info10:checked ~ span.info10 {
-display: none;
-padding: 1em;
-    text-decoration:none;
-    text-align: justify;
-    line-height: 1.5em;
-    font-weight: normal;
-},
-input#info11:checked ~ span.info11 {
-display: none;
-padding: 1em;
-    text-decoration:none;
-    text-align: justify;
-    line-height: 1.5em;
-    font-weight: normal;
-},
-input#info12:checked ~ span.info12 {
-display: none;
-padding: 1em;
-    text-decoration:none;
-    text-align: justify;
-    line-height: 1.5em;
-    font-weight: normal;
-},
-input#info13:checked ~ span.info13 {
-display: none;
-padding: 1em;
-    text-decoration:none;
-    text-align: justify;
-    line-height: 1.5em;
-    font-weight: normal;
-},
-input#info14:checked ~ span.info14 {
-display: none;
-padding: 1em;
-    text-decoration:none;
-    text-align: justify;
-    line-height: 1.5em;
-    font-weight: normal;
-},
-input#info15:checked ~ span.info15{
-display: none;
-padding: 1em;
-    text-decoration:none;
-    text-align: justify;
-    line-height: 1.5em;
-    font-weight: normal;
-} 
-{
+}
+input#info1:checked ~ span.info1,
+input#info2:checked ~ span.info2,
+input#info3:checked ~ span.info3,
+input#info4:checked ~ span.info4,
+input#info5:checked ~ span.info5,
+input#info6:checked ~ span.info6,
+input#info7:checked ~ span.info7,
+input#info8:checked ~ span.info8,
+input#info9:checked ~ span.info9,
+input#info10:checked ~ span.info10,
+input#info11:checked ~ span.info11,
+input#info12:checked ~ span.info12,
+input#info13:checked ~ span.info13,
+input#info14:checked ~ span.info14,
+input#info15:checked ~ span.info15 {
 display: block;
 }
+

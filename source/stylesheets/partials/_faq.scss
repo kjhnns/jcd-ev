@@ -5,8 +5,8 @@ visibility: hidden;
 label {
  text-align: left; 
 } 
-label.info {
- font-weight: 0;
+.faq label {
+ font-weight: 0 !important;
  cursor: pointer;
 }
 

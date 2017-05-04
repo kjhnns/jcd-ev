@@ -8,6 +8,12 @@ label {
 label.info {
  font-weight: 0;
 }
+
+.faq > span > p {
+    border-left: 2px solid #002663;
+    padding-left: 15px;
+}
+
 span {
 display: none;
 padding: 1em;
@@ -16,6 +22,7 @@ padding: 1em;
     line-height: 1.5em;
     font-weight: normal;
 }
+
 input#info1:checked ~ span.info1,
 input#info2:checked ~ span.info2,
 input#info3:checked ~ span.info3,

@@ -5,7 +5,8 @@ visibility: hidden;
 label {
  text-align: left; 
 } 
-label.info:hover {
+label.info {
+ font-weight: 0;
 }
 span {
 display: none;

@@ -22,8 +22,8 @@ $(document).ready(function() {
         };
 
         var getTimeRemaining = function(endtime) {
-            var now = Date.parse(new Date());
-            var then = Date.parse(endtime);
+            var now = new Date();
+            var then = new Date(endtime);
             infoAbend(new Date(endtime));
             if (now >= then) {
                 return {

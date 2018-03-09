@@ -60,7 +60,7 @@ $(document).ready(function() {
             var timeinterval = setInterval(function() {
                 var t = getTimeRemaining(endtime);
                 $(clock + " .ds").html(padleft(t.days));
-                $(clock + " .hrs").html(padleft(t.hours));
+                $(clock + 1 + " .hrs").html(padleft(t.hours));
                 $(clock + " .min").html(padleft(t.minutes));
                 $(clock + " .sec").html(padleft(t.seconds));
                 if (t.total <= 0) {

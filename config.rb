@@ -42,7 +42,7 @@ configure :build do
 
   activate :directory_indexes
   activate :gzip
-  activate :imageoptim
+  #activate :imageoptim
 
   # Append a hash to asset urls (make sure to use the url helpers)
   activate :asset_hash
@@ -55,4 +55,3 @@ activate :deploy do |deploy|
   deploy.user            = ENV['USER']
   deploy.password        = ENV['PW']
 end
-

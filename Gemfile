@@ -13,6 +13,5 @@ gem 'middleman', :git => 'https://github.com/junior-comtec/middleman'
 gem 'middleman-livereload', :git => 'https://github.com/junior-comtec/middleman-livereload'
 gem 'middleman-compass', :git => 'https://github.com/junior-comtec/middleman-compass'
 gem 'middleman-deploy', :git => 'https://github.com/junior-comtec/middleman-deploy'
-gem 'middleman-imageoptim', :git => 'https://github.com/kjhnns/middleman-imageoptim'
+gem 'middleman-imageoptim', :git => 'https://github.com/kjhnns/middleman-imageoptim' IMAGEOPTIM caused build errors
 gem 'middleman-minify-html', :git => 'https://github.com/junior-comtec/middleman-minify-html'
-
